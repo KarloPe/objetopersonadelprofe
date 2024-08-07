@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/et12alumno/miclase/objetoPersona/aprendiendoObjetos.csproj": {}
+    "C:\\Users\\Calito10\\Desktop\\5 17\\OOP\\aprendiendoObjetos.csproj": {}
   },
   "projects": {
-    "/home/et12alumno/miclase/objetoPersona/aprendiendoObjetos.csproj": {
+    "C:\\Users\\Calito10\\Desktop\\5 17\\OOP\\aprendiendoObjetos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/et12alumno/miclase/objetoPersona/aprendiendoObjetos.csproj",
+        "projectUniqueName": "C:\\Users\\Calito10\\Desktop\\5 17\\OOP\\aprendiendoObjetos.csproj",
         "projectName": "aprendiendoObjetos",
-        "projectPath": "/home/et12alumno/miclase/objetoPersona/aprendiendoObjetos.csproj",
-        "packagesPath": "/home/et12alumno/.nuget/packages/",
-        "outputPath": "/home/et12alumno/miclase/objetoPersona/obj/",
+        "projectPath": "C:\\Users\\Calito10\\Desktop\\5 17\\OOP\\aprendiendoObjetos.csproj",
+        "packagesPath": "C:\\Users\\Calito10\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Calito10\\Desktop\\5 17\\OOP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/et12alumno/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Calito10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -53,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.105/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
