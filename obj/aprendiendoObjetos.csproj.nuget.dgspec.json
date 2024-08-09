@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Calito10\\Desktop\\5 17\\OOP\\aprendiendoObjetos.csproj": {}
+    "C:\\Users\\Calito10\\Desktop\\5 17\\objetopersonadelprofe\\aprendiendoObjetos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Calito10\\Desktop\\5 17\\OOP\\aprendiendoObjetos.csproj": {
+    "C:\\Users\\Calito10\\Desktop\\5 17\\objetopersonadelprofe\\aprendiendoObjetos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Calito10\\Desktop\\5 17\\OOP\\aprendiendoObjetos.csproj",
+        "projectUniqueName": "C:\\Users\\Calito10\\Desktop\\5 17\\objetopersonadelprofe\\aprendiendoObjetos.csproj",
         "projectName": "aprendiendoObjetos",
-        "projectPath": "C:\\Users\\Calito10\\Desktop\\5 17\\OOP\\aprendiendoObjetos.csproj",
+        "projectPath": "C:\\Users\\Calito10\\Desktop\\5 17\\objetopersonadelprofe\\aprendiendoObjetos.csproj",
         "packagesPath": "C:\\Users\\Calito10\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Calito10\\Desktop\\5 17\\OOP\\obj\\",
+        "outputPath": "C:\\Users\\Calito10\\Desktop\\5 17\\objetopersonadelprofe\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Calito10\\AppData\\Roaming\\NuGet\\NuGet.Config",

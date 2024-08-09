@@ -1,26 +1,57 @@
 ﻿using System;
 using System.Security.AccessControl;
+using System.Collections.Generic;  //librería de LIST
 using libreriaClase;
 
 namespace libreria
 {
 
     class Pricipal{
+
+        
+
         static void Main(){
+
+            List<Persona> listaPersona = new List<Persona>();
 
             string opcion = mostrarMenu();
 
             while ( opcion != "9") {
 
-            if (opcion == "1"){
 
-                crearPersona();
+                switch (opcion) {
+
+                    case "1":
+                        listaPersona.Add(crearPersona());
+                    break;
+
+                    case "2":
+                        mostrarPersona(listaPersona);
+                    break;
+
+                    default:
+                        Console.WriteLine ("opcion incorrecta...");
+                        Console.ReadKey();
+                        break;
+                    
+                }
+
+            /*if (opcion == "1"){
+
+                listaPersona.Add(crearPersona());
+                
             } 
+
+            if (opcion == "2"){
+
+                mostrarPersona(listaPersona);
+                
+            }             
             else
             {
                 Console.WriteLine("Opción Incorrecta...");
                 Console.ReadKey();
-            }
+            }*/
 
             opcion = mostrarMenu();
 
@@ -28,7 +59,7 @@ namespace libreria
 
         }
 
-         public static void crearPersona(){
+         public static Persona crearPersona(){
 
             Console.Clear();
             Persona p1 = new Persona();
@@ -50,6 +81,28 @@ namespace libreria
             Console.Write("Ingrese Fecha Nacimiento: ");
             p1.FechaNacimiento = Console.ReadLine();
 
+            return p1;
+
+        }
+
+        public static void mostrarPersona(List<Persona> personas){
+                
+                Console.Clear();
+                foreach(var elem in personas){
+                    
+                    Console.WriteLine ("+------------------------------+");
+                    Console.Write ("Apellido: ");
+                    Console.WriteLine(elem.Apellido);
+                    Console.Write ("Nombre: ");
+                    Console.WriteLine(elem.Nombre);
+                    Console.Write ("DNI: ");
+                    Console.WriteLine(elem.DNI);
+                    Console.Write ("Fecha Nac: ");
+                    Console.WriteLine(elem.FechaNacimiento);
+                    Console.WriteLine ("");
+                    
+                }
+                Console.ReadKey();
         }
 
 
@@ -64,6 +117,8 @@ namespace libreria
 
             Console.WriteLine("");
             Console.WriteLine("1.- Crear Alumno");
+            Console.WriteLine("2.- Mostrar Alumnos");
+
             Console.WriteLine("");
             Console.Write("Elija una opción: ");
 
